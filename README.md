@@ -1,8 +1,20 @@
 # SiriStyle
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
+[![Github Stars](https://img.shields.io/github/stars/adamjrbaker/SiriStyle)](https://github.com/adamjrbaker/SiriStyle)
+
+
 A theme designed to feel like native to IOS with support for lovelace-mushroom cards, bubble-cards and more.
 
-## Installation
+## HACS Installation
+
+* (If you do not have it yet) Install [HACS](https://hacs.xyz/docs/installation/manual).
+* Go to the HACS Community Store.
+* Click on the `THEMES` tab.
+* Search and install the `SiriStyle`.
+
+
+## Manual Installation
 
 To install the theme, follow these steps:
 
