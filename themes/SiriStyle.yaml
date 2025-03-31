@@ -107,6 +107,7 @@ SiriStyle-dark:
   primary-text-color: "var(--ios-white)"
   secondary-text-color: "var(--ios-systemGray)"
   text-primary-color: "var(--ios-white)"
+  app-header-text-color: "var(--ios-white)"
   disabled-text-color: "var(--ios-systemGray2)"
   text-dark-color: "var(--ios-white)"
 
@@ -369,6 +370,7 @@ SiriStyle-light:
   primary-text-color: "var(--ios-white)"
   secondary-text-color: "var(--ios-systemGray)"
   text-primary-color: "var(--ios-white)"
+  app-header-text-color: "var(--ios-white)"
   disabled-text-color: "var(--ios-systemGray2)"
   text-dark-color: "var(--ios-white)"
 
