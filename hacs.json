@@ -1,15 +1,4 @@
 {
-  "name": "SiriStyle",
-  "version": "1.0.0",
-  "description": "Custom IOS style themes for Home Assistant. With support for bubble card and Lovelace cards.",
-  "author": "Adam Baker",
-  "homepage": "https://github.com/adamjrbaker/SiriStyle",
-  "repository": "https://github.com/adamjrbaker/SiriStyle",
-  "issue_tracker": "https://github.com/adamjrbaker/SiriStyle/issues",
-  "license": "MIT",
-  "hacs": {
-    "categories": [
-      "Themes"
-    ]
-  }
+  "name": "SiriStyle - Theme",
+  "render_readme": true
 }
