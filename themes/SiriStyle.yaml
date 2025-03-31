@@ -114,7 +114,7 @@ SiriStyle-dark:
   # Sidebar Menu
   sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
-  sidebar-text-color: "var(--ios-systemGray1)"
+  sidebar-text-color: "var(--ios-white)"
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: "var(--ios-white)"
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
@@ -377,7 +377,7 @@ SiriStyle-light:
   # Sidebar Menu
   sidebar-background-color: var(--primary-background-color)
   sidebar-icon-color: var(--light-primary-color)
-  sidebar-text-color: "var(--ios-systemGray1)"
+  sidebar-text-color: "var(--ios-white)"
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: "var(--ios-white)"
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
