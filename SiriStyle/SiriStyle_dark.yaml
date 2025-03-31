@@ -1,0 +1,260 @@
+#
+# SiriStyle Dark
+#
+ios-dark:
+  # Apple Colors
+  ios-red-rgb: 244, 67, 58 
+  ios-red: rgba(var(--ios-red-rgb), 1)
+  ios-orange-rgb: 255, 156, 0 
+  ios-orange: rgba(var(--ios-orange-rgb), 1)
+  ios-yellow-rgb: 255, 214, 10 
+  ios-yellow: rgba(var(--ios-yellow-rgb), 1)
+  ios-amber-rgb: rgba(255, 207, 80, 1) # Made Up Since IOS does not have one
+  ios-amber: rgba(var(--ios-amber-rgb), 1)  # Made Up Since IOS does not have one
+  ios-green-rgb: 48, 209, 88 
+  ios-green: rgba(var(--ios-green-rgb), 1)
+  ios-green-dark-rgb: 32, 94, 47  # Made Up Since IOS does not have one
+  ios-green-dark: rgba(var(--ios-green-dark-rgb), 1)  # Made Up Since IOS does not have one
+  ios-mint-rgb: 99, 230, 226 
+  ios-mint: rgba(var(--ios-mint-rgb), 1)
+  ios-teal-rgb: 64, 200, 224 
+  ios-teal: rgba(var(--ios-teal-rgb), 1)
+  ios-cyan-rgb: 100, 210, 225 
+  ios-cyan: rgba(var(--ios-cyan-rgb), 1)
+  ios-blue-rgb: 10, 132, 255 
+  ios-blue: rgba(var(--ios-blue-rgb), 1)
+  ios-indigo-rgb: 94, 92, 230 
+  ios-indigo: rgba(var(--ios-indigo-rgb), 1)
+  ios-purple-rgb: 191, 90, 242 
+  ios-purple: rgba(var(--ios-purple-rgb), 1)
+  ios-purple-deep-rgb: 128, 64, 173  # Made Up Since IOS does not have one
+  ios-purple-deep: rgba(var(--ios-purple-deep-rgb), 1)  # Made Up Since IOS does not have one
+  ios-pink-rgb: 255, 55, 95 
+  ios-pink: rgba(var(--ios-pink-rgb), 1)
+  ios-brown-rgb: 172, 142, 104 
+  ios-brown: rgba(var(--ios-brown-rgb), 1)
+  ios-systemGray-rgb: 142, 142, 147 
+  ios-systemGray: rgba(var(--ios-systemGray-rgb), 1)
+  ios-systemGray2-rgb: 99, 99, 102 
+  ios-systemGray2: rgba(var(--ios-systemGray2-rgb), 1)
+  ios-systemGray3-rgb: 72, 72, 74 
+  ios-systemGray3: rgba(var(--ios-systemGray3-rgb), 1)
+  ios-systemGray4-rgb: 58, 58, 60 
+  ios-systemGray4: rgba(var(--ios-systemGray4-rgb), 1)
+  ios-systemGray5-rgb: 44, 44, 46 
+  ios-systemGray5: rgba(var(--ios-systemGray5-rgb), 1)
+  ios-systemGray6-rgb: 28, 28, 30 
+  ios-systemGray6: rgba(var(--ios-systemGray6-rgb), 1)
+  ios-white-rgb: 242, 242, 247 
+  ios-white: rgba(var(--ios-white-rgb), 1)
+
+  # Mushroom Colors
+  mush-rgb-red: var(--ios-red-rgb)
+  mush-rgb-orange: var(--ios-orange-rgb)
+  mush-rgb-deep-orange: var(--ios-orange-rgb) # Apple Does not have deep orange
+  mush-rgb-yellow: var(--ios-yellow-rgb)
+  mush-rgb-amber: var(--ios-amber-rgb)
+  mush-rgb-green: var(--ios-green-rgb)
+  mush-rgb-light-green: var(--ios-green-rgb) # Apple does not have a light green
+  mush-rgb-lime: var(--ios-green-rgb) # Apple Does not have lime
+  mush-rgb-light-blue: var(--ios-mint-rgb) # Apple's Mint
+  mush-rgb-teal: var(--ios-teal-rgb)
+  mush-rgb-cyan: var(--ios-cyan-rgb)
+  mush-rgb-blue: var(--ios-blue-rgb)
+  mush-rgb-indigo: var(--ios-indigo-rgb)
+  mush-rgb-purple: var(--ios-purple-rgb)
+  mush-rgb-deep-purple: var(--ios-purple-deep-rgb)
+  mush-rgb-pink: var(--ios-pink-rgb)
+  mush-rgb-brown: var(--ios-brown-rgb)
+  mush-rgb-light-grey: var(--ios-systemGray-rgb)
+  mush-rgb-grey: var(--ios-systemGray2-rgb)
+  mush-rgb-dark-grey: var(--ios-systemGray3-rgb)
+  mush-rgb-blue-grey: var(--ios-systemGray4-rgb)
+  mush-rgb-black: var(--ios-systemGray6-rgb)
+  mush-rgb-white: var(--ios-white-rgb)
+
+  # Global Colors
+  primary-color: "var(--ios-blue)"
+  light-primary-color: "var(--ios-systemGray)" # Icons on left menu
+  primary-background-color: "var(--ios-systemGray6)"
+  secondary-background-color: "var(--ios-systemGray5)"
+  divider-color: "var(--ios-systemGray)"
+  accent-color: "var(--ios-yellow)"
+  clear-background-color: "var(--ios-systemGray6)"
+
+  # Entity Colors
+  light-color: var(--ios-amber)
+  light-bulb-color: "rgba(208, 142, 69, 1)"
+  
+  fan-color: var(--ios-purple)
+  fan-blade-color: var(--ios-purple-deep)
+
+  cover-color: var(--ios-green)
+  cover-color-rgb: var(--ios-green-rgb)
+  cover-icon-color: var(--ios-green-dark)
+
+
+
+  # Text
+  primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+  paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  paper-font-body1_-_font-family: "var(--primary-font-family)"
+  paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  paper-font-headline_-_font-family: "var(--primary-font-family)"
+  paper-font-caption_-_font-family: "var(--primary-font-family)"
+  paper-font-title_-_font-family: "var(--primary-font-family)"
+  primary-text-color: "var(--ios-white)"
+  secondary-text-color: "var(--ios-systemGray)"
+  text-primary-color: "var(--ios-white)"
+  disabled-text-color: "var(--ios-systemGray2)"
+  text-dark-color: "var(--ios-white)"
+
+  # Sidebar Menu
+  sidebar-background-color: var(--primary-background-color)
+  sidebar-icon-color: var(--light-primary-color)
+  sidebar-text-color: "var(--ios-systemGray1)"
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: "var(--ios-white)"
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+
+  # States and Badges
+  state-icon-color: "var(--ios-white)"
+  state-icon-active-color: "var(--ios-yellow)"
+  state-icon-unavailable-color: var(--disabled-text-color)
+
+  # Sliders
+  paper-slider-knob-color: "var(--ios-white)"
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: "var(--primary-color)"
+  paper-slider-secondary-color: var(--paper-slider-knob-color)
+  paper-slider-container-color: rgba(var(--ios-systemGray1-rgb), 0.5)
+  paper-slider-font-color: "var(--ios-systemGray6)"
+  ha-slider-background: none !important
+
+  # Labels
+  label-badge-background-color: "var(--ios-systemGray5)"
+  label-badge-text-color: "var(--ios-white)"
+  label-badge-red: "var(--primary-color)"
+
+  # Cards
+  card-background-color: var(--secondary-background-color) # Bubble Card background
+  paper-listbox-background-color: var(--primary-background-color)
+  ha-card-header-color: var(--primary-text-color)
+  ha-card-border-radius: 20px
+  ha-card-background: rgba(var(--ios-systemGray5-rgb), 0.5)
+  paper-card-background-color: var(--ha-card-background)
+  ha-card-border-width: 0
+
+  # Toggles
+  paper-toggle-button-checked-button-color: var(--ios-systemGray4)
+  paper-toggle-button-checked-bar-color: var(--ios-systemGray4)
+  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+
+  # Table row
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+
+  # Switches
+  switch-checked-color: var(--ios-green)
+  switch-checked-track-color: var(--ios-green)
+  switch-checked-button-color: var(--ios-white)
+
+  # Other
+  paper-dialog-background-color: rgba(var(--ios-systemGray4-rgb), 0.8) # e.g., background of more-info
+  dialog-backdrop-filter: blur(10px)
+  paper-item-icon-color: var(--ios-white)
+  more-info-header-background: rgba(var(--ios-systemGray6-rgb), 0.5)
+  lumo-body-text-color: var(--primary-text-color) # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
+  app-header-background-color: rgba(var(--ios-systemGray6-rgb), 0.9)
+  markdown-code-background-color: var(--ios-systemGray5)
+
+  #----------------------------------------------Custom----------------------------------------------#
+
+  # Mini Media Player
+  mini-media-player-base-color: white
+  mini-media-player-icon-color: white
+  # mini-media-player-artwork-opacity: 0.7  # causing some bug
+
+  # MCG
+  mcg-title-letter-spacing: .15em
+  mdc-text-field-ink-color: var(--primary-text-color)
+  mdc-text-field-label-ink-color: var(--primary-text-color)
+  mdc-select-ink-color: var(--primary-text-color)
+  mdc-select-label-ink-color: var(--primary-text-color)
+  mdc-text-field-font-color: var(--primary-text-color)
+  mdc-select-idle-line-color: var(--secondary-text-color)
+  mdc-select-dropdown-icon-color: var(--primary-text-color)
+  mdc-select-hover-line-color: var(--secondary-text-color)
+  mdc-text-field-fill-color: var(--card-background-color)
+  mdc-select-fill-color: var(--card-background-color)
+
+  codemirror-property: var(--accent-color)
+
+  # Input
+  input-ink-color: var(--primary-text-color)
+  input-disabled-label-ink-color: var(--disabled-text-color)
+  input-label-ink-color: var(--secondary-text-color)
+  input-disabled-ink-color: var(--secondary-text-color)
+  input-disabled-fill-color: var(--card-background-color)
+  input-fill-color: var(--card-background-color)
+  input-dropdown-icon-color: var(--primary-text-color)
+  input-idle-line-color: var(--secondary-text-color)
+  input-hover-line-color: var(--secondary-text-color)
+
+  # Code Editor Colors (Dark with Readable Blue)
+  code-editor-background-color: var(--ios-systemGray6) # Dark background (like VS Code)
+  code-editor-color: var(--ios-sytstemGray) # Default text color (light gray)
+  code-editor-keyword-color: "#FFB86C" # More readable orange for keywords
+  code-editor-function-color: "#FFD700" # Yellow for functions (better contrast)
+  code-editor-variable-color: "#73D1C9" # Cyan for variables (improves contrast)
+  code-editor-number-color: "#B5CEA8" # Green for numbers
+  code-editor-string-color: "#CE9178" # Reddish-orange for strings
+  code-editor-comment-color: "#6A9955" # Green for comments
+
+  # Bubble Card Colors
+  bubble-button-icon-background-color: "var(--primary-color)"
+  bubble-pop-up-main-background-color: "var(--ios-systemGray6)"
+  bubble-button-accent-color: "var(--ios-yellow)" # Accent color for buttons
+  bubble-accent-color: "var(--ios-yellow)"
+  bubble-button-card-container: "var(--ios-systemGray6)"
+
+  # Mushrom State Colors
+  mush-rgb-info: var(--ios-blue-rgb)
+  mush-rgb-success: var(--ios-green-rgb)
+  mush-rgb-warning: var(--ios-orange-rgb)
+  mush-rgb-danger: var(--ios-red-rgb)
+  mush-rgb-state-fan: var(--ios-purple-rgb)
+  mush-rgb-state-light: var(--ios-yellow-rgb)
+  mush-rgb-state-entity: var(--ios-blue-rgb)
+  mush-rgb-state-humidifier: var(--ios-blue-rgb)
+  mush-rgb-state-switch: var(--ios-brown-rgb)
+  mush-rgb-state-vacuum: var(--ios-teal-rgb)
+  mush-rgb-state-media-player: var(--ios-indigo-rgb)
+  mush-rgb-state-lock: var(--ios-red-rgb)
+  mush-rgb-state-number: var(--ios-blue-rgb)
+  mush-rgb-state-alarm-disarmed: var(--ios-red-rgb)
+  mush-rgb-state-alarm-armed: var(--ios-green-rgb)
+  mush-rgb-state-alarm-triggered: var(--ios-red-rgb)
+  mush-rgb-state-person-home: var(--ios-greem-rgb)
+  mush-rgb-state-person-not-home: var(--ios-red-rgb)
+  mush-rgb-state-person-zone: var(--ios-teal-rgb)
+  mush-rgb-state-person-unknown: var(--ios-orange-rgb)
+  mush-rgb-state-update-on: var(--ios-teal-rgb)
+  mush-rgb-update-off: var(--ios-yellow-rgb)
+  mush-rgb-update-installing: var(--ios-green-rgb)
+  mush-rgb-state-lock-locked: var(--ios-green-rgb)
+  mush-rgb-state-lock-unlocked: var(--ios-red-rgb)
+  mush-rgb-state-lock-pending: var(--ios-orange-rgb)
+  mush-rgb-state-cover-open: var(--ios-green-rgb)
+  mush-rgb-state-cover-closed: var(--ios-red-rgb)
+  mush-rgb-state-climate-auto: var(--ios-green-rgb)
+  mush-rgb-state-climate-cool: var(--ios-blue-rgb)
+  mush-rgb-state-climate-dry: var(--ios-orange-rgb)
+  mush-rgb-state-climate-fan-only: var(--ios-teal-rgb)
+  mush-rgb-state-climate-heat: var(--ios-deep-red-rgb)
+  mush-rgb-state-climate-heat-cool: var(--ios-orange-rgb)
+  mush-rgb-state-climate-idle: var(--ios-systemGray-rgb)
+  mush-rgb-state-climate-off: var(--ios-systemGray2-rgb)
