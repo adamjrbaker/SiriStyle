@@ -10,11 +10,11 @@ SiriStyle-dark:
   ios-yellow-rgb: 255, 214, 10 
   ios-yellow: rgba(var(--ios-yellow-rgb), 1)
   ios-amber-rgb: rgba(255, 207, 80, 1) # Made Up Since IOS does not have one
-  ios-amber: rgba(var(--ios-amber-rgb), 1)  # Made Up Since IOS does not have one
+  ios-amber: rgba(var(--ios-amber-rgb), 1) # Made Up Since IOS does not have one
   ios-green-rgb: 48, 209, 88 
   ios-green: rgba(var(--ios-green-rgb), 1)
-  ios-green-dark-rgb: 32, 94, 47  # Made Up Since IOS does not have one
-  ios-green-dark: rgba(var(--ios-green-dark-rgb), 1)  # Made Up Since IOS does not have one
+  ios-green-dark-rgb: 32, 94, 47 # Made Up Since IOS does not have one
+  ios-green-dark: rgba(var(--ios-green-dark-rgb), 1) # Made Up Since IOS does not have one
   ios-mint-rgb: 99, 230, 226 
   ios-mint: rgba(var(--ios-mint-rgb), 1)
   ios-teal-rgb: 64, 200, 224 
@@ -27,8 +27,8 @@ SiriStyle-dark:
   ios-indigo: rgba(var(--ios-indigo-rgb), 1)
   ios-purple-rgb: 191, 90, 242 
   ios-purple: rgba(var(--ios-purple-rgb), 1)
-  ios-purple-deep-rgb: 128, 64, 173  # Made Up Since IOS does not have one
-  ios-purple-deep: rgba(var(--ios-purple-deep-rgb), 1)  # Made Up Since IOS does not have one
+  ios-purple-deep-rgb: 128, 64, 173 # Made Up Since IOS does not have one
+  ios-purple-deep: rgba(var(--ios-purple-deep-rgb), 1) # Made Up Since IOS does not have one
   ios-pink-rgb: 255, 55, 95 
   ios-pink: rgba(var(--ios-pink-rgb), 1)
   ios-brown-rgb: 172, 142, 104 
@@ -47,6 +47,8 @@ SiriStyle-dark:
   ios-systemGray6: rgba(var(--ios-systemGray6-rgb), 1)
   ios-white-rgb: 242, 242, 247 
   ios-white: rgba(var(--ios-white-rgb), 1)
+  ios-black-rgb: 28, 28, 30 
+  ios-black: rgba(var(--ios-black-rgb), 1)
 
   # Mushroom Colors
   mush-rgb-red: var(--ios-red-rgb)
@@ -81,19 +83,18 @@ SiriStyle-dark:
   divider-color: "var(--ios-systemGray)"
   accent-color: "var(--ios-yellow)"
   clear-background-color: "var(--ios-systemGray6)"
+  icon-color: "var(--ios-white)"
 
   # Entity Colors
-  light-color: var(--ios-amber)
+  light-color: "var(--ios-amber-rgb)"
   light-bulb-color: "rgba(208, 142, 69, 1)"
-  
-  fan-color: var(--ios-purple)
-  fan-blade-color: var(--ios-purple-deep)
 
-  cover-color: var(--ios-green)
-  cover-color-rgb: var(--ios-green-rgb)
-  cover-icon-color: var(--ios-green-dark)
+  fan-color: "var(--ios-purple)"
+  fan-blade-color: "var(--ios-purple-deep)"
 
-
+  cover-color: "var(--ios-green)"
+  cover-color-rgb: "var(--ios-green-rgb)"
+  cover-icon-color: "var(--ios-green-dark)"
 
   # Text
   primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
@@ -227,6 +228,7 @@ SiriStyle-dark:
   mush-rgb-success: var(--ios-green-rgb)
   mush-rgb-warning: var(--ios-orange-rgb)
   mush-rgb-danger: var(--ios-red-rgb)
+  mush-rgb-disabled: var(--ios-systemGray2-rgb)
   mush-rgb-state-fan: var(--ios-purple-rgb)
   mush-rgb-state-light: var(--ios-yellow-rgb)
   mush-rgb-state-entity: var(--ios-blue-rgb)
@@ -260,7 +262,6 @@ SiriStyle-dark:
   mush-rgb-state-climate-idle: var(--ios-systemGray-rgb)
   mush-rgb-state-climate-off: var(--ios-systemGray2-rgb)
 
-
 #
 # SiriStyle Light
 #
@@ -273,11 +274,11 @@ SiriStyle-light:
   ios-yellow-rgb: 255, 204, 10 
   ios-yellow: rgba(var(--ios-yellow-rgb), 1)
   ios-amber-rgb: 255, 207, 80 # Made Up Since IOS does not have one
-  ios-amber: rgba(var(--ios-amber-rgb), 1)  # Made Up Since IOS does not have one
+  ios-amber: rgba(var(--ios-amber-rgb), 1) # Made Up Since IOS does not have one
   ios-green-rgb: 52, 199, 89 
   ios-green: rgba(var(--ios-green-rgb), 1)
-  ios-green-dark-rgb: 32, 94, 47  # Made Up Since IOS does not have one
-  ios-green-dark: rgba(var(--ios-green-dark-rgb), 1)  # Made Up Since IOS does not have one
+  ios-green-dark-rgb: 32, 94, 47 # Made Up Since IOS does not have one
+  ios-green-dark: rgba(var(--ios-green-dark-rgb), 1) # Made Up Since IOS does not have one
   ios-mint-rgb: 0, 199, 190 
   ios-mint: rgba(var(--ios-mint-rgb), 1)
   ios-teal-rgb: 48, 176, 199 
@@ -290,8 +291,8 @@ SiriStyle-light:
   ios-indigo: rgba(var(--ios-indigo-rgb), 1)
   ios-purple-rgb: 175, 82, 222 
   ios-purple: rgba(var(--ios-purple-rgb), 1)
-  ios-purple-deep-rgb: 128, 64, 173  # Made Up Since IOS does not have one
-  ios-purple-deep: rgba(var(--ios-purple-deep-rgb), 1)  # Made Up Since IOS does not have one
+  ios-purple-deep-rgb: 128, 64, 173 # Made Up Since IOS does not have one
+  ios-purple-deep: rgba(var(--ios-purple-deep-rgb), 1) # Made Up Since IOS does not have one
   ios-pink-rgb: 255, 45, 85 
   ios-pink: rgba(var(--ios-pink-rgb), 1)
   ios-brown-rgb: 162, 132, 94 
@@ -306,10 +307,12 @@ SiriStyle-light:
   ios-systemGray4: rgba(var(--ios-systemGray4-rgb), 1)
   ios-systemGray5-rgb: 229, 229, 234 
   ios-systemGray5: rgba(var(--ios-systemGray5-rgb), 1)
-  ios-systemGray6-rgb: 242, 242, 247 
+  ios-systemGray6-rgb: 243, 243, 243 
   ios-systemGray6: rgba(var(--ios-systemGray6-rgb), 1)
-  ios-white-rgb: 28, 28, 30 
+  ios-white-rgb: 242, 242, 247 
   ios-white: rgba(var(--ios-white-rgb), 1)
+  ios-black-rgb: 28, 28, 30 
+  ios-black: rgba(var(--ios-black-rgb), 1)
 
   # Mushroom Colors
   mush-rgb-red: var(--ios-red-rgb)
@@ -334,7 +337,7 @@ SiriStyle-light:
   mush-rgb-dark-grey: var(--ios-systemGray3-rgb)
   mush-rgb-blue-grey: var(--ios-systemGray4-rgb)
   mush-rgb-black: var(--ios-systemGray6-rgb)
-  mush-rgb-white: var(--ios-white-rgb)
+  mush-rgb-white: var(--ios-black-rgb)
 
   # Global Colors
   primary-color: "var(--ios-blue)"
@@ -344,19 +347,18 @@ SiriStyle-light:
   divider-color: "var(--ios-systemGray)"
   accent-color: "var(--ios-yellow)"
   clear-background-color: "var(--ios-systemGray6)"
+  icon-color: "var(--ios-black)"
 
   # Entity Colors
-  light-color: var(--ios-amber)
+  light-color: "var(--ios-amber-rgb)"
   light-bulb-color: "rgba(208, 142, 69, 1)"
-  
-  fan-color: var(--ios-purple)
-  fan-blade-color: var(--ios-purple-deep)
 
-  cover-color: var(--ios-green)
-  cover-color-rgb: var(--ios-green-rgb)
-  cover-icon-color: var(--ios-green-dark)
+  fan-color: "var(--ios-purple)"
+  fan-blade-color: "var(--ios-purple-deep)"
 
-
+  cover-color: "var(--ios-green)"
+  cover-color-rgb: "var(--ios-green-rgb)"
+  cover-icon-color: "var(--ios-green-dark)"
 
   # Text
   primary-font-family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
@@ -367,28 +369,27 @@ SiriStyle-light:
   paper-font-headline_-_font-family: "var(--primary-font-family)"
   paper-font-caption_-_font-family: "var(--primary-font-family)"
   paper-font-title_-_font-family: "var(--primary-font-family)"
-  primary-text-color: "var(--ios-white)"
-  secondary-text-color: "var(--ios-systemGray)"
-  text-primary-color: "var(--ios-white)"
-  app-header-text-color: "var(--ios-white)"
-  disabled-text-color: "var(--ios-systemGray2)"
-  text-dark-color: "var(--ios-white)"
+  primary-text-color: "var(--ios-black)"
+  secondary-text-color: "var(--ios-systemGray2)"
+  text-primary-color: "var(--ios-black)"
+  app-header-text-color: "var(--ios-black)"
+  disabled-text-color: "var(--ios-black)"
 
   # Sidebar Menu
-  sidebar-background-color: var(--primary-background-color)
+  sidebar-background-color: var(--secondary-background-color)
   sidebar-icon-color: var(--light-primary-color)
-  sidebar-text-color: "var(--ios-white)"
+  sidebar-text-color: "var(--ios-black)"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "var(--ios-white)"
+  sidebar-selected-icon-color: "var(--ios-black)"
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
 
   # States and Badges
-  state-icon-color: "var(--ios-white)"
+  state-icon-color: "var(--ios-black)"
   state-icon-active-color: "var(--ios-yellow)"
   state-icon-unavailable-color: var(--disabled-text-color)
 
   # Sliders
-  paper-slider-knob-color: "var(--ios-white)"
+  paper-slider-knob-color: "var(--ios-black)"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: "var(--primary-color)"
@@ -399,7 +400,7 @@ SiriStyle-light:
 
   # Labels
   label-badge-background-color: "var(--ios-systemGray5)"
-  label-badge-text-color: "var(--ios-white)"
+  label-badge-text-color: "var(--ios-black)"
   label-badge-red: "var(--primary-color)"
 
   # Cards
@@ -424,12 +425,12 @@ SiriStyle-light:
   # Switches
   switch-checked-color: var(--ios-green)
   switch-checked-track-color: var(--ios-green)
-  switch-checked-button-color: var(--ios-white)
+  switch-checked-button-color: var(--ios-black)
 
   # Other
   paper-dialog-background-color: rgba(var(--ios-systemGray4-rgb), 0.8) # e.g., background of more-info
   dialog-backdrop-filter: blur(10px)
-  paper-item-icon-color: var(--ios-white)
+  paper-item-icon-color: var(--ios-black)
   more-info-header-background: rgba(var(--ios-systemGray6-rgb), 0.5)
   lumo-body-text-color: var(--primary-text-color) # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   app-header-background-color: rgba(var(--ios-systemGray6-rgb), 0.9)
@@ -490,6 +491,7 @@ SiriStyle-light:
   mush-rgb-success: var(--ios-green-rgb)
   mush-rgb-warning: var(--ios-orange-rgb)
   mush-rgb-danger: var(--ios-red-rgb)
+  mush-rgb-disabled: var(--ios-systemGray2-rgb)
   mush-rgb-state-fan: var(--ios-purple-rgb)
   mush-rgb-state-light: var(--ios-yellow-rgb)
   mush-rgb-state-entity: var(--ios-blue-rgb)
