@@ -9,7 +9,7 @@ SiriStyle-dark:
   ios-orange: rgba(var(--ios-orange-rgb), 1)
   ios-yellow-rgb: 255, 214, 10 
   ios-yellow: rgba(var(--ios-yellow-rgb), 1)
-  ios-amber-rgb: rgba(255, 207, 80, 1) # Made Up Since IOS does not have one
+  ios-amber-rgb: 255, 207, 80 # Made Up Since IOS does not have one
   ios-amber: rgba(var(--ios-amber-rgb), 1) # Made Up Since IOS does not have one
   ios-green-rgb: 48, 209, 88 
   ios-green: rgba(var(--ios-green-rgb), 1)
@@ -228,7 +228,7 @@ SiriStyle-dark:
   mush-rgb-success: var(--ios-green-rgb)
   mush-rgb-warning: var(--ios-orange-rgb)
   mush-rgb-danger: var(--ios-red-rgb)
-  mush-rgb-disabled: var(--ios-systemGray2-rgb)
+  mush-rgb-disabled: var(--ios-systemGray-rgb)
   mush-rgb-state-fan: var(--ios-purple-rgb)
   mush-rgb-state-light: var(--ios-yellow-rgb)
   mush-rgb-state-entity: var(--ios-blue-rgb)
